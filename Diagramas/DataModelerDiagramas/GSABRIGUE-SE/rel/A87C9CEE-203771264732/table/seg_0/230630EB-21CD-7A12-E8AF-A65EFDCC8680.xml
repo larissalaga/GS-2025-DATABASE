@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="230630EB-21CD-7A12-E8AF-A65EFDCC8680" name="T_GSAB_RECURSO">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<generatorID>B271C7D4-AEE4-ABAB-EAC6-6E504AE6F479</generatorID>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_recurso" id="9D65FEB9-10D8-4427-D1D6-261D15B23496">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<generatorID>65642295-21BD-7E2C-787B-87BD7F0C37CC</generatorID>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22708CC3-9586-103A-3CAC-0DBE072692A3" name="T_GSAB_RECURSO_PK">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<generatorID>4AD1575A-40E0-E8D1-F862-3A3C97AF122B</generatorID>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D65FEB9-10D8-4427-D1D6-261D15B23496"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE653E1D-6A8D-73D0-EF3A-EF41CB173B57" name="Relation_2">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_GSAB_RECURSO_id_recurso" id="BFCAEB2F-E04C-9D5C-6E74-855821C8600C">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28072353-4C7D-D21F-5BEC-752D15CCE62D" referredColumn="9D65FEB9-10D8-4427-D1D6-261D15B23496"/>
+</associations>
+</Column>
+<Column name="T_GSAB_ESTOQUE_RECURSO_id_estoque" id="20E0FC48-532E-1595-901D-6EB2F996484F">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18DAB768-14AF-0039-8FE0-EDEB514A1439" referredColumn="8835D079-FE27-4313-4AE6-76E65E7EDBCD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F56DD47-772D-32DE-E025-EB4C02B443E2" name="Relation_2_PK">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFCAEB2F-E04C-9D5C-6E74-855821C8600C"/>
+<colUsage columnID="20E0FC48-532E-1595-901D-6EB2F996484F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CDF0D8F-0A8A-B3F8-8926-63E818B6A96C" name="Relation_2_T_GSAB_RECURSO_FK">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<generatorID>75CC49DA-1FF4-30C0-1FCA-2C69CC15F610</generatorID>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFCAEB2F-E04C-9D5C-6E74-855821C8600C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31BC8EBF-908C-6CC2-912E-E936A346497E" name="Relation_2_T_GSAB_ESTOQUE_RECURSO_FK">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<generatorID>75CC49DA-1FF4-30C0-1FCA-2C69CC15F610</generatorID>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20E0FC48-532E-1595-901D-6EB2F996484F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

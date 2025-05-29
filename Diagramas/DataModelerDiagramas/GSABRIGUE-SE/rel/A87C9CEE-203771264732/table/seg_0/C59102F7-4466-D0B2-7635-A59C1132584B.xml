@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C59102F7-4466-D0B2-7635-A59C1132584B" name="T_GSAB_PESSOA">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<generatorID>7F40F49E-A79A-F2A1-636B-65E0171F57BF</generatorID>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pessoa" id="FB2D568F-4757-CD63-1E10-AB09E94DEAEC">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<generatorID>7FFC4D1F-C511-BB51-CB20-FDF88CF483EC</generatorID>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_GSAB_ABRIGO_id_abrigo" id="326607E4-206B-418A-902E-943705640FEC">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<generatorID>2BB1ABF1-F050-BD0D-AA4F-AAD8981B92A0</generatorID>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7401537D-B7A8-F622-A260-697F94D5D21B" referredColumn="F9206377-8E9E-E786-951C-9A452453432B"/>
+</associations>
+</Column>
+<Column name="T_GSAB_USUARIO_id_usuario" id="5ADAAFEB-E3AE-4111-72A3-7440E7AA5AB3">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<generatorID>FE9C56E9-D0F9-2497-E9F3-F5C0F5A866D9</generatorID>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76974895-66AC-70BB-1D47-9E42AF76BEF2" referredColumn="C9F070ED-3955-CF25-D6F0-7C27FAE39246"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DCDAE62-0CD3-4359-526D-18CB3598007B" name="T_GSAB_PESSOA_PK">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<generatorID>B973E5D4-C53F-361B-2B75-E48CC03F92E6</generatorID>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB2D568F-4757-CD63-1E10-AB09E94DEAEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EBB42E2-1F62-CBC3-9F31-16B2A480150C" name="T_GSAB_PESSOA__IDX">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9D0917F8-25E4-96AC-0A17-50063A0BA936</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5ADAAFEB-E3AE-4111-72A3-7440E7AA5AB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9485160-A200-2BD7-BFFD-87BDD83318D0" name="T_GSAB_PESSOA_T_GSAB_ABRIGO_FK">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<generatorID>C82121BF-D2F9-19ED-55DB-E667EE5BB0BD</generatorID>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="326607E4-206B-418A-902E-943705640FEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF33150A-B05C-49A8-31D6-C49866D5A50E" name="T_GSAB_PESSOA_T_GSAB_USUARIO_FK">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 23:44:54 UTC</createdTime>
+<generatorID>9D0917F8-25E4-96AC-0A17-50063A0BA936</generatorID>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ADAAFEB-E3AE-4111-72A3-7440E7AA5AB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

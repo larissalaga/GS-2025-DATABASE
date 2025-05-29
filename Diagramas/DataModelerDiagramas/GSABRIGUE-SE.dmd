@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="GSABRIGUE-SE" id="CF1A7C31-B408-17FC-EE41-26DFCE66A0CD" version="3.5">
+<createdBy>laris</createdBy>
+<createdTime>2025-05-28 19:45:14 UTC</createdTime>
+<ownerDesignName>GSABRIGUE-SE</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CF1A7C31-B408-17FC-EE41-26DFCE66A0CD</designId>
+</OSDM_Design>
