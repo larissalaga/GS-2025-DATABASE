@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AB1F2C9-D3CE-4B9D-DED1-C11C2CCB3D37" name="T_GSAB_ENDERECO">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>EB5D4677-86F0-78A7-4483-ACDEFB7A7646</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_endereco" id="600D7659-9DBC-0C2B-46D0-392A8219CA3A">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>64CCFA1F-075F-AB24-0E55-7639589BFE7E</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,20</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cep" id="8711305E-95DD-EC3C-AF1A-2457F5554B87">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>ECA737D5-6EF0-0F1C-7A68-DC521036A129</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_logradouro" id="9991D80C-F46E-2657-3D80-54D3CF481913">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>F2BCA468-2034-7229-AC37-6DEE174758A8</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_numero" id="4CCB4BD6-3374-B50B-0DB2-CBF70FC355A9">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>C9EBA6B6-F0AE-484E-B5B9-D1B679621837</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_complemento" id="CC4C4C08-FD42-DD27-04ED-536E67708799">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>C887CBD8-8029-9491-51EB-BA37E852DA57</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cidade" id="E1E296C6-9D23-8C99-558C-25E0A1CB96A7">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>52AAE527-6A57-03E2-50ED-027BEEAD6012</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="128CB19A-BEE0-F6A9-3E08-AF7C3476CAA0" referredColumn="89288ACC-77AE-DCBA-B048-80A521716E9E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="923F0565-5DC6-CB28-4CD2-A3C80E36ADA0" name="T_GSAB_ENDERECO_PK">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>4C93F7C3-4C8D-380B-BC9E-34D83816ACD1</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="600D7659-9DBC-0C2B-46D0-392A8219CA3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E48FD61-786C-7F23-CDF2-A99F8717E68B" name="T_GSAB_ENDERECO_T_GSAB_CIDADE_FK">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>5E1E8300-63C4-4382-3F4F-F86802C0BF54</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1E296C6-9D23-8C99-558C-25E0A1CB96A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

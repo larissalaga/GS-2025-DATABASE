@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2604922-D973-EB9F-0E9E-ED6CFC474D27" name="T_GSAB_ESTADO">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>07629D11-0F97-EBBB-E737-4DFFB65AFA69</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estado" id="4F99332F-2101-9AD0-4878-E648F47D813B">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>B2EA4A6F-BC8E-E9BB-3CB4-BFAA4E6D7228</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,20</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="FB682DCC-4ADB-EBAF-616B-F8A0B767D830">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>0C6263B9-3F9D-E3E7-BEEA-7028EDED1310</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pais" id="9D4ADF9B-F9A9-F9A5-4096-7B8A7475F5D2">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>7BC8A290-B1B3-6EAB-1972-E3F652933144</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="808C9D27-286E-FC11-584A-5923AC6BA17C" referredColumn="EE49E05A-9B3F-CBA9-C981-032B6AEEEDE5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C98CC60-EFAD-7DD2-00BA-BB825409EF0D" name="T_GSAB_ESTADO_PK">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>47065CD0-56C1-060B-6CBD-F19E01AC750F</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F99332F-2101-9AD0-4878-E648F47D813B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCF2F2AF-9C59-DB11-D308-0ED4D3304E64" name="T_GSAB_ESTADO_T_GSAB_PAIS_FK">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>8C6E4AFA-9AC8-1F1B-8486-808C29E515D4</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D4ADF9B-F9A9-F9A5-4096-7B8A7475F5D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

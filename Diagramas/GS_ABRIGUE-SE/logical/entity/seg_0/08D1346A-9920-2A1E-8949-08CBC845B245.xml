@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08D1346A-9920-2A1E-8949-08CBC845B245" name="T_GSAB_CHECK_IN">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:27:12 UTC</createdTime>
+<generatorID>6CD40807-D511-5814-AD45-2C4515B9EAB0</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_checkin" id="3385DE4F-F7CA-4A94-7C24-88DC83960FB7">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:27:12 UTC</createdTime>
+<generatorID>BE2BD539-A742-322B-F2ED-57DD6037D450</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,20</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_entrada" id="3FEC5194-F2E9-1C55-7AE6-B89656216340">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:27:12 UTC</createdTime>
+<generatorID>61B14A87-0DF2-9D16-FF6B-114D921B9B7B</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="B768E5CC-589F-BC77-0840-BB9CC9D59508">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:27:12 UTC</createdTime>
+<generatorID>6622528E-2DFE-F820-AD73-C2FDD065B55B</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_abrigo" id="BFFE7AB0-A518-2828-8F91-E29581A3F25F">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:27:12 UTC</createdTime>
+<generatorID>404CF750-66E4-9641-FF49-97238A056EFF</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<referedAttribute>181F51F9-D095-8986-F098-080B3534C04D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pessoa" id="DAE6F4BE-8C54-26F6-714A-AC3871865E9D">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:27:12 UTC</createdTime>
+<generatorID>0B33BE4D-588B-FBE6-B735-9F67A0D04903</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<referedAttribute>04237924-6E88-CBB5-3EC2-1D7A8A8F2D87</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E59F0B4-A6E2-4739-41DF-27D2EC360A8B" name="T GSAB CHECK IN PK">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:27:12 UTC</createdTime>
+<generatorID>7C67B8F4-3AA8-9FAE-295E-4627E493074C</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3385DE4F-F7CA-4A94-7C24-88DC83960FB7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B3EC07A5-D4A5-3FA1-7772-BE230EF1D145" containerWithKeyObject="91703ABB-F14D-DC56-8D26-43794CE8F4CC" localFKIndex="BBC0F37D-47B8-41B5-3C33-BC5630264CD5" name="T_GSAB_ESTOQUE_RECURSO_T_GSAB_RECURSO_FK">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>1A8654CD-2F8E-7187-C2E7-8C3124F6B5A1</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<referredTableLongName>T_GSAB_RECURSO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4A28BFAA-8AB3-47E1-8A9D-2F275FE0607C</referredTableID>
+<keyObject>48D244E6-6835-98DA-FE2A-CBBEF2A01D07</keyObject>
+<referredKeyID>48D244E6-6835-98DA-FE2A-CBBEF2A01D07</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_recurso</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

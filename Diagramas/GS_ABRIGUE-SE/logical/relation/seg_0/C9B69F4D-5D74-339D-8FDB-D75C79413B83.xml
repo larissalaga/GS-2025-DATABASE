@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_GSAB_ESTOQUE_RECURSO_T_GSAB_ABRIGO_FK" directorySegmentName="seg_0" id="C9B69F4D-5D74-339D-8FDB-D75C79413B83">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:27:12 UTC</createdTime>
+<generatorID>5C76713C-5F0C-6807-8FDE-45D937C0004D</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<sourcePk>F742F888-F5CD-E39A-25DA-3FA5FD05C871</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9BA23158-B529-7CC5-2385-8D9858678071</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6546F6C5-B534-F76E-64E4-14BA9266FC0C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

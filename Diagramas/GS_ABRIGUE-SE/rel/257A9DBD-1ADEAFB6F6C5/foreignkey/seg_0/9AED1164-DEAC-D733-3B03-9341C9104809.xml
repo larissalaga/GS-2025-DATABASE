@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9AED1164-DEAC-D733-3B03-9341C9104809" containerWithKeyObject="91703ABB-F14D-DC56-8D26-43794CE8F4CC" localFKIndex="066F8890-F1C1-C93F-BD39-B1176306F5D8" name="T_GSAB_ESTOQUE_RECURSO_T_GSAB_ABRIGO_FK">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>C9B69F4D-5D74-339D-8FDB-D75C79413B83</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<referredTableLongName>T_GSAB_ABRIGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F0592020-2578-3652-A063-90B706AF6082</referredTableID>
+<keyObject>A7158033-197F-04A1-0B42-D8176880F7DC</keyObject>
+<referredKeyID>A7158033-197F-04A1-0B42-D8176880F7DC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_abrigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C2593F5-B41B-D40D-8C03-A2741A2874EB" name="T_GSAB_TIPO_USUARIO">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>CB59D8DD-5040-1125-5679-B3D5E512C72B</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_usuario" id="8B05482B-8E40-0697-8286-AE0DFCE8B0BE">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>DAD871D0-6BBF-AFF2-E20F-A741A139F970</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,20</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_usuario" id="09BFD8F4-859C-65B4-21FE-E849B601E0A7">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>2F823D41-6736-3294-E614-E191B8C7DE68</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C1AE654-6D0E-ED78-68C9-5D499CFCECD9" name="T_GSAB_TIPO_USUARIO_PK">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>5EFD2D01-2934-6A14-BFAD-B102169A511F</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B05482B-8E40-0697-8286-AE0DFCE8B0BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

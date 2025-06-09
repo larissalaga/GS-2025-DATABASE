@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B864A3B2-76BC-2D30-6CD8-22C210CDCB1D" name="T_GSAB_CIDADE">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:47:59 UTC</createdTime>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cidade" id="44F2B52B-56D0-D223-4231-C4EBCB8A0B31">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:48:28 UTC</createdTime>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,20</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="DEB9CFA1-FCF4-1EDE-788D-EB178B384A21">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:49:19 UTC</createdTime>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estado" id="61D9BE07-EBF0-DA4F-864C-A04061E63C28">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:51:38 UTC</createdTime>
+<generatorID>06CDDE4B-A732-7715-1571-65695176AFDD</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<referedAttribute>B2EA4A6F-BC8E-E9BB-3CB4-BFAA4E6D7228</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21203AD1-408F-D687-C9AB-7CAA9C1112A4" name="T_GSAB_CIDADE PK">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:48:46 UTC</createdTime>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44F2B52B-56D0-D223-4231-C4EBCB8A0B31</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

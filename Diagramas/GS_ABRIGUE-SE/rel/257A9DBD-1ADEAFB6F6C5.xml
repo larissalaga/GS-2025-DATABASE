@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational" id="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" mainViewID="2A76695A-02FB-4CF3-DCD0-30D64427F9F4">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:32:56 UTC</createdTime>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

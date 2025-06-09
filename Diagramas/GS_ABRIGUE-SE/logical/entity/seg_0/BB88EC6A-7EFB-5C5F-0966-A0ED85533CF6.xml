@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB88EC6A-7EFB-5C5F-0966-A0ED85533CF6" name="T_GSAB_RECURSO">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:27:12 UTC</createdTime>
+<generatorID>0CF33DB3-1501-957B-EB4B-1DA06EEBD3E7</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_recurso" id="66CC2673-CFDE-164E-6131-A92A077D20FE">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:27:12 UTC</createdTime>
+<generatorID>AE135C80-4E26-AF18-6815-A1F284A77C12</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,20</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_recurso" id="DFBBDF0E-04CA-9320-24F8-A9F3DC23521F">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:27:12 UTC</createdTime>
+<generatorID>CCA0E675-3CF7-8D23-B5C2-45792FED59C3</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_pessoa_dia" id="44B5EFA8-6D58-5ABC-4956-231C619CD680">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:27:12 UTC</createdTime>
+<generatorID>FBA5A8E4-4A4D-0750-C1E4-9EBDD3D38C6D</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,20</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_consumivel" id="C52B2212-01FC-FB87-37A0-7808E665E868">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:27:12 UTC</createdTime>
+<generatorID>E2BEF451-5A91-0C78-F26A-621AC7A00CDB</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="70E2ABFA-7957-6B66-3D09-FBA2D4551058" name="T GSAB RECURSO PK">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:27:12 UTC</createdTime>
+<generatorID>7CF555A6-8A4B-AFBD-F85E-3B3D1C37D39A</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>66CC2673-CFDE-164E-6131-A92A077D20FE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B18BF6B4-15E3-BBC6-8AF6-FDE7941730C5" containerWithKeyObject="B565A76A-7BF6-731D-F5B9-170CD6A94128" localFKIndex="703E4312-395A-69D4-F2D6-8FC6853150D5" name="T_GSAB_CIDADE_T_GSAB_ESTADO_FK">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>06CDDE4B-A732-7715-1571-65695176AFDD</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<referredTableLongName>T_GSAB_ESTADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C2604922-D973-EB9F-0E9E-ED6CFC474D27</referredTableID>
+<keyObject>8C98CC60-EFAD-7DD2-00BA-BB825409EF0D</keyObject>
+<referredKeyID>8C98CC60-EFAD-7DD2-00BA-BB825409EF0D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_estado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

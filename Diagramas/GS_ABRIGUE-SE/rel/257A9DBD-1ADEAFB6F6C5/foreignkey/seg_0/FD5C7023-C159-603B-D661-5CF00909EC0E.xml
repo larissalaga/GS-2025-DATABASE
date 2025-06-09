@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FD5C7023-C159-603B-D661-5CF00909EC0E" containerWithKeyObject="CC9A2DE2-82FC-D3E5-67D0-D57887F11DE6" localFKIndex="14BF006F-C781-0FFD-1BF2-5DFC8E429355" name="T_GSAB_USUARIO_T_GSAB_PESSOA_FK">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:53:57 UTC</createdTime>
+<generatorID>332534F4-5386-94C6-FF40-34DD4BE78622</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<referredTableLongName>T_GSAB_PESSOA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E908374C-8DB0-8F1C-895D-8D23A9F1AA95</referredTableID>
+<keyObject>3F5C6059-52DB-726C-0148-21EBE7B7E886</keyObject>
+<referredKeyID>3F5C6059-52DB-726C-0148-21EBE7B7E886</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pessoa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

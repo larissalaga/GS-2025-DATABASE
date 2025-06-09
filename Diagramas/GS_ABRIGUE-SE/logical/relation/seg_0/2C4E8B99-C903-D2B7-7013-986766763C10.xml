@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_GSAB_USUARIO_T_GSAB_TIPO_USUARIO_FK" directorySegmentName="seg_0" id="2C4E8B99-C903-D2B7-7013-986766763C10">
+<createdBy>laris</createdBy>
+<createdTime>2025-06-08 12:27:12 UTC</createdTime>
+<generatorID>891F0A81-1DC1-0802-C398-803E2A13BD72</generatorID>
+<ownerDesignName>GS_ABRIGUE-SE</ownerDesignName>
+<engineerTo>
+<item key="257A9DBD-A096-7EF2-A6AB-1ADEAFB6F6C5" value="true"/>
+</engineerTo>
+<sourcePk>5EFD2D01-2934-6A14-BFAD-B102169A511F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CB59D8DD-5040-1125-5679-B3D5E512C72B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2C1A7EA8-C5CF-582C-A90C-E9007F3EE6CF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
